@@ -14,7 +14,7 @@
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   z-index: 1000;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid #50a2f4;
 }
 
 .nav-container {
