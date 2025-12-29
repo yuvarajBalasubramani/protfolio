@@ -27,9 +27,7 @@ function App() {
         </div>
         <div className="hero-image">
           <div className="profile-placeholder">
-            <a img="hero-image.png"></a>
-
-            <span>Your Photo</span>
+            <img src="/hero-image.png" alt="Yuvaraj" className="profile-image" />
           </div>
         </div>
       </section>
