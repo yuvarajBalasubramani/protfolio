@@ -17,7 +17,7 @@ function App() {
 
       <section id="hero" className="hero">
         <div className="hero-content">
-          <h1>Hi, I'm <span className="highlight">Your Name</span></h1>
+          <h1>Hi, I'm <span className="highlight">Yuvaraj</span></h1>
           <h2>Full Stack Developer</h2>
           <p>I create amazing web experiences with modern technologies</p>
           <div className="hero-buttons">
@@ -27,6 +27,8 @@ function App() {
         </div>
         <div className="hero-image">
           <div className="profile-placeholder">
+            <a img="hero-image.png"></a>
+
             <span>Your Photo</span>
           </div>
         </div>
@@ -47,20 +49,6 @@ function App() {
                 contributing to open source projects, or enjoying outdoor activities.
               </p>
             </div>
-            <div className="about-stats">
-              <div className="stat">
-                <h3>2+</h3>
-                <p>Years Experience</p>
-              </div>
-              <div className="stat">
-                <h3>10+</h3>
-                <p>Projects Completed</p>
-              </div>
-              <div className="stat">
-                <h3>5+</h3>
-                <p>Technologies Mastered</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -75,7 +63,7 @@ function App() {
                 <span className="skill-tag">React</span>
                 <span className="skill-tag">JavaScript</span>
                 <span className="skill-tag">HTML5</span>
-                <span className="skill-tag">CSS3</span>
+                <span className="skill-tag">CSS</span>
                 <span className="skill-tag">TypeScript</span>
               </div>
             </div>
@@ -86,6 +74,7 @@ function App() {
                 <span className="skill-tag">Python</span>
                 <span className="skill-tag">Express</span>
                 <span className="skill-tag">MongoDB</span>
+                <span className="skill-tag">MySQL</span>
               </div>
             </div>
             <div className="skill-category">
@@ -118,46 +107,8 @@ function App() {
                   <span>MongoDB</span>
                 </div>
                 <div className="project-links">
-                  <a href="#" className="btn small">Live Demo</a>
-                  <a href="#" className="btn small secondary">GitHub</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-card">
-              <div className="project-image">
-                <div className="project-placeholder">Project 2</div>
-              </div>
-              <div className="project-content">
-                <h3>Task Management App</h3>
-                <p>A collaborative task management application with real-time updates.</p>
-                <div className="project-tech">
-                  <span>React</span>
-                  <span>Firebase</span>
-                  <span>Material-UI</span>
-                </div>
-                <div className="project-links">
-                  <a href="#" className="btn small">Live Demo</a>
-                  <a href="#" className="btn small secondary">GitHub</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-card">
-              <div className="project-image">
-                <div className="project-placeholder">Project 3</div>
-              </div>
-              <div className="project-content">
-                <h3>Weather Dashboard</h3>
-                <p>A responsive weather dashboard with location-based forecasts.</p>
-                <div className="project-tech">
-                  <span>JavaScript</span>
-                  <span>API</span>
-                  <span>CSS3</span>
-                </div>
-                <div className="project-links">
-                  <a href="#" className="btn small">Live Demo</a>
-                  <a href="#" className="btn small secondary">GitHub</a>
+                  <a href="https://full-stack-tbq9.vercel.app/" className="btn small">Live Demo</a>
+                  <a href="https://github.com/yuvarajBalasubramani/Full-Stack" className="btn small secondary">GitHub</a>
                 </div>
               </div>
             </div>
@@ -175,15 +126,15 @@ function App() {
               <div className="contact-details">
                 <div className="contact-item">
                   <span className="contact-icon">📧</span>
-                  <span>your.email@example.com</span>
+                  <span>yuvar3556@gmail.com.com</span>
                 </div>
                 <div className="contact-item">
                   <span className="contact-icon">📱</span>
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 6381341477</span>
                 </div>
                 <div className="contact-item">
                   <span className="contact-icon">📍</span>
-                  <span>Your City, Country</span>
+                  <span>Karur, India</span>
                 </div>
               </div>
             </div>
@@ -209,9 +160,9 @@ function App() {
         <div className="container">
           <p>&copy; 2024 Your Name. All rights reserved.</p>
           <div className="social-links">
-            <a href="#" aria-label="GitHub">🐙</a>
-            <a href="#" aria-label="LinkedIn">💼</a>
-            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="https://github.com/yuvarajBalasubramani" aria-label="GitHub">GitHub</a>
+            <a href="https://www.linkedin.com/in/yuvaraj-balasubramani-a30640296/" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://leetcode.com/u/Yuvaraj_Balasubramani/" aria-label="Leetcode">LeetCode</a>
           </div>
         </div>
       </footer>

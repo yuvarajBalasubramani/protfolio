@@ -174,10 +174,8 @@ section h2 {
 
 /* About Section */
 .about-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 50px;
-  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .about-text p {
@@ -185,31 +183,6 @@ section h2 {
   line-height: 1.8;
   margin-bottom: 20px;
   color: #555;
-}
-
-.about-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.stat {
-  text-align: center;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.stat h3 {
-  font-size: 2rem;
-  color: #3498db;
-  margin-bottom: 5px;
-}
-
-.stat p {
-  color: #666;
-  font-weight: 500;
 }
 
 /* Skills Section */
@@ -420,10 +393,6 @@ section h2 {
   .contact-content {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
-
-  .about-stats {
-    grid-template-columns: 1fr;
   }
 
   .projects-grid {
